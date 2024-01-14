@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.FreeDelivery{
+    background-color: azure;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+       
+}
+
+.imag-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .slide {
+   
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide img {
+    width: auto; /* Allow the width to adjust according to the container */
+    height: auto; /* Allow the height to adjust according to the container */
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+  }
+
+  @media (max-width: 1024px) {
+    .slide {
+      width: 100%; /* Adjust the width as needed for even smaller screens */
+    }
+}
+  /* Media query for screen widths up to 768 pixels */
+@media (max-width: 768px) {
+    .slide {
+      width: 50%; /* Adjust the width as needed for smaller screens */
+    }
+  }
+  
+  /* Media query for screen widths up to 480 pixels */
+  @media (max-width: 480px) {
+    .slide {
+      width: 100%; /* Adjust the width as needed for even smaller screens */
+    }
+
+    
+}
